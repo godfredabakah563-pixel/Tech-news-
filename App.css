@@ -1,0 +1,82 @@
+.techplus-container {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f6f6f6;
+  padding-bottom: 50px;
+  min-height: 100vh;
+}
+
+.techplus-header {
+  background: #b80000;
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+  border-bottom: 4px solid #000;
+}
+
+.techplus-header h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin: 0;
+  font-weight: bold;
+}
+.subheading {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+.top-news {
+  padding: 2rem 1rem 1rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.news-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.news-item {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+  flex: 1 1 40%;
+  min-width: 250px;
+  max-width: 420px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0.9rem;
+  gap: 1rem;
+  transition: box-shadow 0.2s;
+}
+.news-item:hover {
+  box-shadow: 0 4px 16px rgba(154,0,0,0.19);
+}
+.news-item img {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.news-item h3 {
+  font-size: 1.15rem;
+  margin: 0 0 0.2em 0;
+  color: #b80000;
+}
+.news-item p {
+  margin: 0 0 0.4em 0;
+}
+.news-item time {
+  font-size: 0.96em;
+  color: #333;
+  opacity: 0.7;
+}
+footer {
+  text-align: center;
+  background: #111;
+  color: #eee;
+  padding: 1.1rem 0 0.6rem;
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  font-size: 0.95rem;
+}
